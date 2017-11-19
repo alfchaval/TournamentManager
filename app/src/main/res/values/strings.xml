@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TournamentManager</string>
+    <string name="signin">Iniciar sesión</string>
+    <string name="user_or_email">Usuario o correo</string>
+    <string name="Password">Contraseña</string>
+    <string name="remember_me">Recuérdame</string>
+    <string name="signup"><u>Regístrate</u></string>
+    <string name="signingup">Registrarse</string>
+    <string name="repeat_password">Repita la contraseña</string>
+    <string name="about_us">Sobre nosotros</string>
+    <string name="players">Jugadores</string>
+</resources>

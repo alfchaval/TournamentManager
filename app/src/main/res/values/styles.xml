@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="LoginTheme" parent="AppTheme">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="LoginTitle" parent="AppTheme">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Widget" parent="@android:style/Widget"/>
+    <style name="Widget.Button" parent="@android:style/Widget.Button"/>
+    <style name="Widget.Button.Transparent">
+        <item name="android:background">@null</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Widget.Editext" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="CheckBox_RememberMe" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:textSize">16dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="@string/players"
+        android:id="@+id/action_player_database"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:title="@string/about_us"
+        android:id="@+id/action_about_us"
+        app:showAsAction="never"/>
+</menu>

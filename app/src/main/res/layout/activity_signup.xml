@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/default_padding"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alfonso.tournamentmanager.ui.signup.SignUpViewImpl"
+    android:background="@color/colorPrimaryLight"
+    android:orientation="vertical"
+    android:id="@+id/content">
+
+    <TextView
+        android:id="@+id/txvSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:text="@string/signingup"
+        android:textAppearance="@style/LoginTitle"
+        />
+
+    <TextView
+        android:id="@+id/txvUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/user_or_email"
+        android:textAppearance="@style/LoginTheme"
+        />
+
+    <EditText
+        android:id="@+id/edtUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:inputType="text"
+        android:padding="@dimen/editext_padding"
+        android:textAppearance="@style/Widget.Editext"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/txvPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Password"
+        android:textAppearance="@style/LoginTheme"/>
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:inputType="textPassword"
+        android:padding="@dimen/editext_padding"
+        android:textAppearance="@style/Widget.Editext"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/txvRepeatPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/repeat_password"
+        android:textAppearance="@style/LoginTheme"/>
+
+    <EditText
+        android:id="@+id/edtRepeatPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:inputType="textPassword"
+        android:padding="@dimen/editext_padding"
+        android:textAppearance="@style/Widget.Editext"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:textAlignment="center"
+        />
+
+    <Button
+        style="@style/Widget.Button.Transparent"
+        android:id="@+id/btnSignUp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="@dimen/signin_button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/signingup"
+        android:background="@color/colorPrimaryDark"
+        android:textAppearance="@style/LoginTheme"
+        android:layout_marginBottom="@dimen/txv_signin_margin"
+        />
+
+</LinearLayout>

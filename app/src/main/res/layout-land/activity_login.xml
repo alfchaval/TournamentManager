@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/default_padding"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alfonso.tournamentmanager.ui.login.LoginViewImpl"
+    android:background="@color/colorPrimaryLight"
+    android:orientation="vertical"
+    android:id="@+id/content">
+
+    <TextView
+        android:id="@+id/txvSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:text="@string/signin"
+        android:textAppearance="@style/LoginTitle"
+        />
+
+    <LinearLayout
+        android:id="@+id/llLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/default_margin">
+
+        <LinearLayout
+            android:id="@+id/llUser"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="@dimen/default_margin"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/txvUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/user_or_email"
+                android:textAppearance="@style/LoginTheme"
+                />
+
+            <EditText
+                android:id="@+id/edtUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:inputType="text"
+                android:padding="@dimen/editext_padding"
+                android:textAppearance="@style/Widget.Editext"
+                android:layout_marginTop="@dimen/default_margin"
+                android:textAlignment="center"
+                android:text="usuario"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llPassword"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="@dimen/default_margin"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/txvPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Password"
+                android:textAppearance="@style/LoginTheme"/>
+
+            <EditText
+                android:id="@+id/edtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:inputType="textPassword"
+                android:padding="@dimen/editext_padding"
+                android:textAppearance="@style/Widget.Editext"
+                android:layout_marginTop="@dimen/default_margin"
+                android:textAlignment="center"
+                android:text="ContraseñaEjemplo1"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llSignUpOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/default_margin">
+
+        <CheckBox
+            android:id="@+id/chkRemember"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="@string/remember_me"
+            android:theme="@style/CheckBox_RememberMe"
+            />
+
+        <TextView
+            android:id="@+id/txvSignUp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/signup"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:textAlignment="viewEnd"
+            android:textAppearance="@android:style/TextAppearance.Small.Inverse"
+            />
+
+    </LinearLayout>
+
+    <Button
+        style="@style/Widget.Button.Transparent"
+        android:id="@+id/btnSignIn"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="@dimen/signin_button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/signin"
+        android:background="@color/colorPrimaryDark"
+        android:textAppearance="@style/LoginTheme"
+        android:layout_marginBottom="@dimen/txv_signin_margin"
+        />
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TournamentManager</string>
+    <string name="Password">Password</string>
+    <string name="errorDifferentPassword">Different passwords</string>
+    <string name="errorEmailEmpty">You need a valid e-mail</string>
+    <string name="errorPasswordEmpty">The password can not be empty</string>
+    <string name="errorPassword">Error with Passeord</string>
+    <string name="errorPasswordLength">Password too short</string>
+    <string name="errorUserEmpty">User can not be empty</string>
+    <string name="remember_me">Remember me</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="signin">Sign In</string>
+    <string name="signingup">Sign Up</string>
+    <string name="signup"><u>Sign Up</u></string>
+    <string name="user_or_email">User or e-mail</string>
+</resources>
